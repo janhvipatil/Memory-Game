@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Memory Game</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="app.js" async></script>
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+
+        <!-- Result Panel -->
+        <div class="game-result-container">
+            <div class="game-result">
+                Time: <span id="time-remaining" class="text-color">01:00</span>
+            </div>
+            <div class="game-result">
+                Moves: <span id="moves" class="text-color">0</span>
+            </div>
+            <div class="game-result">
+                Score: <span id="points" class="text-color">0</span>
+            </div>
+        </div>
+
+        <!-- Game Container -->
+        <section class="memory-game-container">
+
+            <!-- Game Cards Added -->
+            <div class="game-card" data-name="image1">
+                <img class="front-face" src="assets/images/image1.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+            <div class="game-card" data-name="image1">
+                <img class="front-face" src="assets/images/image1.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+
+            <div class="game-card" data-name="image2">
+                <img class="front-face" src="assets/images/image2.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+            <div class="game-card" data-name="image2">
+                <img class="front-face" src="assets/images/image2.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+
+            <div class="game-card" data-name="image3">
+                <img class="front-face" src="assets/images/image3.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+            <div class="game-card" data-name="image3">
+                <img class="front-face" src="assets/images/image3.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+
+            <div class="game-card" data-name="image4">
+                <img class="front-face" src="assets/images/image4.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+            <div class="game-card" data-name="image4">
+                <img class="front-face" src="assets/images/image4.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+
+            <div class="game-card" data-name="image5">
+                <img class="front-face" src="assets/images/image5.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+            <div class="game-card" data-name="image5">
+                <img class="front-face" src="assets/images/image5.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+
+            <div class="game-card" data-name="image6">
+                <img class="front-face" src="assets/images/image6.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+            <div class="game-card" data-name="image6">
+                <img class="front-face" src="assets/images/image6.png" />
+                <img class="back-face" src="assets/images/card.png" />
+            </div>
+        </section>
+
+        <!-- Popup for start game, victory or loss -->
+        <section class="overlay-container">
+            <div class="overlay-text visible">
+                Click to Start
+            </div>
+            <div id="game-over-text" class="overlay-text">
+                Game Over!
+                <span class="overlay-text-small">Click to Restart</span>
+            </div>
+            <div id="victory-text" class="overlay-text">
+                You Won!
+                <span class="overlay-text-small">Click to Restart</span>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+        <p> Created by <a href="#">Janhvi Patil</a></p>
+        </footer>
+
+    </body>
+</html>
