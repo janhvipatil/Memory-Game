@@ -8,3 +8,6 @@ Load this link in your browser https://memory-game-heroku.herokuapp.com/
 * Keep flipping cards while remembering where each card is placed
 * Match identical cards to score points
 * Try to match all the pairs of cards before the time runs out
+
+## License
+[MIT License](LICENSE).
