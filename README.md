@@ -1,4 +1,4 @@
-# memory-game
+# Memory Game
 
 ## To play the game:
 Load this link in your browser https://memory-game-heroku.herokuapp.com/
