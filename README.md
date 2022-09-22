@@ -1,7 +1,6 @@
 # Memory Game
 
-## To play the game:
-Load this link in your browser https://memory-game-jp.vercel.app/
+link: https://memory-game-jp.vercel.app/
 
 ## Instructions
 * Click on a card to flip it
