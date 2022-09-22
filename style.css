@@ -10,9 +10,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #8360c3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #87ceeb;
+    /* fallback for old browsers */
+    background: #87ceeb;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: #87ceeb;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* HEADER */
@@ -21,9 +24,10 @@ header {
     font-weight: normal;
     text-align: center;
     font-size: 2.6em;
-    font-family: 'Cambo', serif;
-    text-shadow: 8px 6px 4px rgba(0,0,0,.3);
+    font-family: 'Roboto', serif;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, .3);
 }
+
 /* END OF HEADER */
 
 /* RESULT PANEL */
@@ -44,12 +48,13 @@ header {
 .game-result {
     color: #f5f7f7;
     font-size: 1.5em;
-    font-family: 'kalam', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .text-color {
     color: #301934
 }
+
 /* END OF RESULT PANEL */
 
 /* GAME CONTAINER */
@@ -70,7 +75,7 @@ header {
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
-    box-shadow: 6px 6px 3px rgba(0,0,0,.4);
+    box-shadow: 6px 6px 3px rgba(0, 0, 0, .4);
 }
 
 .game-card:active {
@@ -94,14 +99,18 @@ header {
     position: absolute;
     border-radius: 5px;
     backface-visibility: hidden;
-    background: #9796f0;  /* fallback for old browsers */
-    background: -webkit-radial-gradient(#fbc7d4, #5f5dde);  /* Chrome 10-25, Safari 5.1-6 */
-    background: radial-gradient(#fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fff;
+    /* fallback for old browsers */
+    background: #fff;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: #fff;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .front-face {
     transform: rotateY(180deg);
 }
+
 /* END OF GAME CONTAINER */
 
 /* POPUP SECTION */
@@ -117,27 +126,29 @@ header {
     z-index: 100;
     color: whitesmoke;
 }
-  
+
 .overlay-text-small {
     font-size: .3em;
 }
-  
+
 .overlay-text.visible {
     display: flex;
     flex-direction: column;
     animation: overlay-grow 500ms forwards;
 }
-  
+
 @keyframes overlay-grow {
     from {
-      background-color: rgba(0, 0, 0, 0);
-      font-size: 0;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 0;
     }
+
     to {
-      background-color: rgba(0, 0, 0, .8);
-      font-size: 5em;
+        background-color: rgba(0, 0, 0, .8);
+        font-size: 5em;
     }
 }
+
 /* END OF POPUP SECTION */
 
 /* FOOTER */
@@ -149,14 +160,15 @@ footer p {
     text-align: center;
     font-size: 1em;
     clear: both;
-  }
-  
-  footer p a {
+}
+
+footer p a {
     color: #301934;
     text-decoration: none;
-  }
+}
 
-  footer p a:hover {
+footer p a:hover {
     color: whitesmoke;
-  }
-  /* END OF FOOTER */
+}
+
+/* END OF FOOTER */
